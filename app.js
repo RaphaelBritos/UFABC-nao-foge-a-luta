@@ -9,8 +9,8 @@
  * IMPORTANTE: A chave "anon" / "publishable" é pública por design.
  * NUNCA coloque sua senha, a service_role key ou uma secret key aqui.
  */
-const SUPABASE_URL = '';
-const SUPABASE_ANON_KEY = '';
+const SUPABASE_URL = 'https://kvpcrpqucazpfedmkngh.supabase.co/rest/v1/';
+const SUPABASE_ANON_KEY = 'sb_publishable_pdLhxfvaDFpDVN1X_hoyQg_pdMhrDel';
 
 // Link público de convite ou contato. Ex.: https://chat.whatsapp.com/SEU_CODIGO
 // Também aceita um link wa.me, ex.: https://wa.me/5511999999999
