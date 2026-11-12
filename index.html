@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#faf6ef" />
+  <meta name="description" content="UFABC Não Foge à Luta! Chapa para o DCE da UFABC. Por permanência, formação e moradia. Conheça nossas propostas." />
+  <meta property="og:title" content="UFABC Não Foge à Luta! | Chapa DCE" />
+  <meta property="og:description" content="Por permanência, formação e moradia. Conheça nossas lutas e propostas." />
+  <meta property="og:type" content="website" />
+  <title>UFABC Não Foge à Luta! | Chapa DCE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;600;700;800&family=Kalam:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/logo-circular.webp" type="image/webp" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+  <script src="propostas.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header" id="inicio">
+    <div class="nav-shell wrap">
+      <a class="brand" href="#inicio" aria-label="UFABC Não Foge à Luta, voltar ao início">
+        <span class="brand-sticker"><img src="assets/logo-circular.webp" alt="" width="56" height="56" /></span>
+        <span class="brand-text">UFABC <b>não foge</b><small>à luta!</small></span>
+      </a>
+      <button type="button" class="menu-toggle icon-btn" id="menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-menu" id="main-menu" aria-label="Menu principal">
+        <a href="#quem-somos">Quem somos</a>
+        <a href="#propostas">Propostas</a>
+        <a href="#frentes">Nossas lutas</a>
+        <a href="#participar" data-whatsapp-link class="nav-cta">Vem com a gente <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero">
+      <div class="hero-sun" aria-hidden="true"></div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> CHAPA PARA O DCE • UFABC</div>
+          <h1>Quem estuda<br/>também <span class="hand-underline">faz história.</span></h1>
+          <p class="hero-lead">A universidade que queremos se constrói com organização, presença e luta coletiva.</p>
+          <div class="hero-stamp">por <strong>permanência,</strong><br/><strong>formação</strong> e <strong>moradia!</strong></div>
+          <div class="hero-actions">
+            <a class="button button-orange" href="#propostas">Conheça as propostas <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#quem-somos">Quem somos <span aria-hidden="true">↘</span></a>
+          </div>
+          <div class="hero-caption"><span class="little-star" aria-hidden="true">✳</span> Feita por estudantes que sabem que a UFABC não foge a luta.</div>
+        </div>
+        <div class="hero-art reveal">
+          <div class="scribble-sun" aria-hidden="true">✳</div>
+          <div class="poster-tape tape-top" aria-hidden="true"></div>
+          <figure class="poster-frame">
+            <img src="assets/cartaz.webp" alt="Arte oficial da chapa UFABC Não Foge à Luta!, com bandeira laranja e estudantes em manifestação." width="1080" height="1350" fetchpriority="high" />
+          </figure>
+          <div class="poster-tape tape-bottom" aria-hidden="true"></div>
+          <div class="hero-bubble" aria-hidden="true">A luta<br/><b>continua!</b></div>
+        </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true">↓ <span>arrasta pra conhecer</span></div>
+    </section>
+
+    <div class="ticker" aria-label="Por permanência, formação e moradia">
+      <div class="ticker-track" aria-hidden="true">
+        <span> PERMANÊNCIA ✳ FORMAÇÃO ✳ MORADIA ✳ </span>
+        <span>PERMANÊNCIA ✳ FORMAÇÃO ✳ MORADIA ✳  </span>
+        <span> PERMANÊNCIA ✳ FORMAÇÃO ✳ MORADIA ✳ </span>
+        <span>PERMANÊNCIA ✳ FORMAÇÃO ✳ MORADIA ✳  </span>
+      </div>
+    </div>
+
+    <section id="quem-somos" class="manifesto section-pad">
+      <div class="wrap manifesto-grid">
+        <div class="manifesto-left reveal">
+          <div class="section-kicker light"><span class="kicker-line"></span> QUEM SOMOS</div>
+          <h2>Somos estudantes que <em>não fogem à luta.</em></h2>
+          <div class="manifesto-asterisk" aria-hidden="true">✳</div>
+        </div>
+        <div class="manifesto-right reveal">
+          <p class="manifesto-intro">Somos uma chapa formada por estudantes que acreditam na que a luta conquista.</p>
+          <p>Viemos de diferentes cursos, trajetórias e vivências da UFABC. Nosso compromisso é ouvir quem estuda, trabalha, pesquisa e enfrenta dificuldades para permanecer na universidade.</p>
+          <p>Queremos um DCE próximo de cada estudante, com participação aberta, transparência e ação coletiva por ensino de qualidade, permanência, acessibilidade, cultura e direitos.</p>
+          <a href="#frentes" class="line-link">Conheça nossas frentes de luta <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="frentes" class="frentes section-pad">
+      <div class="wrap">
+        <div class="section-kicker reveal"><span class="kicker-line"></span> O QUE NOS MOVE</div>
+        <div class="frentes-heading reveal">
+          <h2>Mais que uma chapa.<br/><span>Um movimento.</span></h2>
+          <p>Três compromissos que orientam nossa atuação. As propostas estão organizadas em eixos temáticos logo abaixo.</p>
+        </div>
+        <div class="front-cards">
+          <article class="front-card front-one reveal">
+            <div class="front-icon" aria-hidden="true">✳</div>
+            <span class="front-number">01 / CONTINUAR</span>
+            <h3>Permanência</h3>
+            <p>Condições reais para entrar, ficar, estudar e concluir a graduação.</p>
+            <a href="#propostas" data-category-link="Auxílios">Ver propostas <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="front-card front-two reveal">
+            <div class="front-icon front-icon-book" aria-hidden="true">✎</div>
+            <span class="front-number">02 / APRENDER</span>
+            <h3>Formação</h3>
+            <p>Ensino público de qualidade, apoio acadêmico e participação nas decisões.</p>
+            <a href="#propostas" data-category-link="Chutes">Ver propostas <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="front-card front-three reveal">
+            <div class="front-icon" aria-hidden="true">⌂</div>
+            <span class="front-number">03 / PERTENCER</span>
+            <h3>Moradia</h3>
+            <p>Direito à cidade, acolhimento e debate permanente sobre moradia estudantil.</p>
+            <a href="#propostas" data-category-link="Moradia">Ver propostas <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="propostas" class="proposals section-pad">
+      <div class="wrap">
+        <div class="proposals-head reveal">
+          <div>
+            <div class="section-kicker"><span class="kicker-line"></span> NOSSO PROGRAMA</div>
+            <h2>Ideias que viram<br/><em>luta coletiva.</em></h2>
+          </div>
+          <div class="proposals-head-aside"><span class="hand-marker" aria-hidden="true">↘</span><p>Escolha um eixo, busque pelo tema e abra cada proposta para conhecer os detalhes.</p></div>
+        </div>
+        <div class="filter-panel reveal">
+          <label class="search-field">
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <span class="sr-only">Buscar propostas</span>
+            <input type="search" id="proposal-search" placeholder="Buscar uma proposta..." autocomplete="off" />
+          </label>
+          <div class="filter-actions">
+            <div id="category-filters" class="filter-chips" role="group" aria-label="Filtrar propostas por tema"></div>
+            <button class="favorites-toggle" id="favorites-toggle" type="button" aria-pressed="false">♡ Salvas <span id="favorite-count">0</span></button>
+          </div>
+        </div>
+        <div class="result-line" aria-live="polite"><span id="result-count">Carregando propostas...</span><span id="public-mode-label" class="demo-pill" hidden>Propostas da chapa • modo local</span></div>
+        <div id="proposal-grid" class="proposal-grid" aria-live="polite"></div>
+        <div id="empty-state" class="empty-state" hidden><span aria-hidden="true">✳</span><h3>Nenhuma proposta por aqui ainda.</h3><p>Tente outro termo ou selecione um tema diferente.</p><button type="button" class="button button-outline" id="reset-filters">Limpar filtros</button></div>
+      </div>
+    </section>
+
+    <section class="visual-break">
+      <div class="wrap visual-break-grid">
+        <div class="visual-break-copy reveal">
+          <span class="mini-label">NOSSA IDENTIDADE • NOSSA VOZ</span>
+          <h2>A luta é feita<br/>de <span>muita gente.</span></h2>
+          <p>Uma universidade pública, popular, acessível e acolhedora se constrói com a participação de todo mundo.</p>
+          <a href="#participar" data-whatsapp-link class="button button-navy">Venha fazer parte <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="visual-break-art reveal"><img src="assets/adesivos.webp" alt="Variações dos adesivos e logotipos oficiais da chapa UFABC Não Foge à Luta!" loading="lazy" width="1080" height="1350" /></div>
+      </div>
+    </section>
+
+    <section id="participar" class="participar section-pad">
+      <div class="wrap participar-inner reveal">
+        <div class="participar-doodle" aria-hidden="true">✳</div>
+        <span class="section-kicker light">NOSSA LUTA É COLETIVA</span>
+        <h2>A UFABC não<br/><em>foge à luta.</em><br/>E você?</h2>
+        <p>Quer construir uma UFABC melhor junto com a gente? Entre em contato no WhatsApp, participe das conversas e ajude a transformar as propostas em ação. VOTE CHAPA 1!</p>
+        <div class="participar-buttons">
+          <a href="#participar" data-whatsapp-link class="button button-cream">Venha fazer parte da chapa <span aria-hidden="true">↗</span></a>
+          <button type="button" class="button button-ghost" id="share-site">Compartilhar a chapa</button>
+          <button type="button" class="button button-ghost" id="copy-link">Copiar link</button>
+        </div>
+        <div class="participar-stars" aria-hidden="true">✻ ✳ ✻</div>
+      </div>
+    </section>
+
+    <section class="faq-section section-pad">
+      <div class="wrap faq-grid">
+        <div class="reveal"><div class="section-kicker"><span class="kicker-line"></span> TIRE SUAS DÚVIDAS</div><h2>Pra entender<br/>e <em>participar.</em></h2></div>
+        <div class="faq-list reveal">
+          <details><summary>O que faz o DCE da UFABC? <span aria-hidden="true">+</span></summary><p>O Diretório Central dos Estudantes representa o conjunto dos estudantes e atua na defesa de seus direitos, articulando pautas e mobilizações junto à comunidade universitária.</p></details>
+          <details><summary>O que significa “Não Foge à Luta”? <span aria-hidden="true">+</span></summary><p>É um chamado à organização coletiva: enfrentar os problemas da vida universitária com diálogo, participação estudantil e compromisso com a educação pública.</p></details>
+          <details><summary>As propostas podem ser atualizadas? <span aria-hidden="true">+</span></summary><p>Sim. O programa pode ser construído e aprimorado ao longo da campanha. As propostas publicadas nesta página são gerenciadas pela equipe da chapa.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-main">
+      <div><p class="footer-lead">A universidade<br/>é nossa. <em>A luta também.</em></p><span class="footer-sub">Chapa UFABC Não Foge à Luta! • DCE</span></div>
+      <div class="footer-links"><a href="#inicio">Voltar ao topo ↑</a><a href="#propostas">Propostas</a><a href="#quem-somos">Quem somos</a></div>
+    </div>
+    <div class="wrap footer-bottom"><span>Feito com cuidado, luta e organização estudantil.</span><button id="admin-trigger" type="button" class="admin-trigger" aria-label="Área administrativa" title="Área administrativa">✳</button></div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <div class="modal-backdrop" id="admin-modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="admin-title">
+      <button type="button" class="modal-close" id="close-admin" aria-label="Fechar painel">×</button>
+      <div class="modal-label">ACESSO RESTRITO</div>
+      <h2 id="admin-title">Painel da chapa<span class="orange-dot">.</span></h2>
+      <p class="modal-description">Acesso exclusivo para a equipe responsável pelo programa de propostas.</p>
+      <div id="admin-setup" class="setup-alert" hidden><strong>Falta conectar o banco de dados.</strong><p>Configure a URL e a chave pública do Supabase no início de <code>app.js</code>. Veja o passo a passo em <code>README.md</code>.</p></div>
+      <form id="login-form" class="form-stack" autocomplete="on">
+        <label>E-mail de administrador<input id="login-email" type="email" autocomplete="username" required placeholder="seu@email.com" /></label>
+        <label>Senha<input id="login-password" type="password" autocomplete="current-password" required minlength="6" placeholder="Sua senha" /></label>
+        <button class="button button-orange full" type="submit" id="login-submit">Entrar no painel <span aria-hidden="true">↗</span></button>
+        <p class="form-error" id="login-error" role="alert" hidden></p>
+      </form>
+      <div id="admin-dashboard" hidden>
+        <div class="dashboard-bar"><span id="admin-identity"></span><button type="button" id="logout-button" class="text-button">Sair</button></div>
+        <h3>Gerenciar propostas</h3>
+        <p class="dashboard-info">Cadastre novas propostas, edite as existentes ou alterne entre rascunho e publicada.</p>
+        <form id="proposal-form" class="form-stack">
+          <input type="hidden" id="edit-id" />
+          <label>Título <input id="edit-title" maxlength="150" minlength="5" required placeholder="Título da proposta" /></label>
+          <label>Eixo <select id="edit-category" required><option value="R.U.">R.U.</option><option value="Auxílios">Auxílios</option><option value="Chutes">Chutes</option><option value="Cultura">Cultura</option><option value="Esportes">Esportes</option><option value="Acessibilidade">Acessibilidade</option><option value="Mulheres">Mulheres</option><option value="Étnico-racial">Étnico-racial</option><option value="Moradia">Moradia</option><option value="Transporte">Transporte</option><option value="Infraestrutura">Infraestrutura</option><option value="Participação">Participação</option></select></label>
+          <label>Descrição <textarea id="edit-description" required maxlength="2000" minlength="15" rows="5" placeholder="Explique a proposta de forma clara..."></textarea></label>
+          <label class="check-row"><input type="checkbox" id="edit-published" checked /> Publicar no site</label>
+          <div class="form-row"><button class="button button-orange" id="save-proposal" type="submit">Salvar proposta</button><button class="button button-outline" type="button" id="cancel-edit">Limpar</button></div>
+          <p id="editor-feedback" class="editor-feedback" role="status"></p>
+        </form>
+        <div class="admin-proposal-list"><h3>Propostas cadastradas <span id="admin-total">0</span></h3><div id="admin-items"></div></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
